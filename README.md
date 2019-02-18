@@ -23,8 +23,8 @@ For this project, we have to realize a game based on the famous [Cookie Clicker]
 	* [My first restaurant webpage]("https://fesouille.github.io/progressive-enhancement2/")
 
 * A few illustrating pictures:
-![Screenshot restaurant](assets/img/screenshot1.png)
-![Screenshot restaurant](assets/img/screenshot2.png)
+![Screenshot 1 restaurant](assets/img/screenshot1.png)
+![Screenshot 2 restaurant](assets/img/screenshot2.png)
 
 
 * Progress: 
