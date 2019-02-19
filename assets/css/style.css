@@ -1,0 +1,34 @@
+/*Gallerie HTML - BEGINNING*/
+.pictures img{
+	width:100%;
+	height: auto;
+}
+.pictures div{
+	margin-bottom: 25px;
+}
+/*Gallerie HTML - END*/
+.restaurant-adresse{
+	font-size: 14px;
+	color: #B1B1B1;
+}
+/*RESTAURANTS HTML - BEGINNING*/
+.plan, #restaurants th {
+	font-size: 14px;
+}
+#restaurants td{
+	font-size: 13px;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+/*RESTAURANTS HTML - END*/
