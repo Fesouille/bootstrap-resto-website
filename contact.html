@@ -44,9 +44,39 @@
     </nav>
 	  <div class="container">
 	    <h1 class="display-4">Contactez-nous</h1>
-	    <p class="lead">Nos pizzas</p>
-	    <hr class="my-4">
-			<p>Existe-t-il un univers où il est possible de manger des pizzas faites avec amour et passion? Où on ne vous demande même pas si vous voulez un tiramisu en dessert (car nous savons que vous en voulez) ?</p>
+			<p>Avoir un restaurant, ça signifie servir ses clients. Vous qui passez donc notre porte, qui payez pour qu'on vous prépare de succulents mets, vous qui avez un avis extérieur sur notre restaurant, notre équipe, notre cuisine... Vous, la clé de notre réusssite! N'hésitez donc pas à nous faire part de vos remarques, critiques (ne soyez pas gêné), questions ou recommendations car nous y attachons une attention particulière.</p>
+      <hr class="my-4">
+      <form class="mb-2">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="form-name">Nom</label>
+            <input type="text" class="form-control" id="form-name" placeholder="Dubois">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="form-firstname">Prénom</label>
+            <input type="text" class="form-control" id="form-firstname" placeholder="Robert">
+          </div>
+        </div>
+          <div class="form-group">
+            <label for="form-email">E-mail</label>
+            <input type="email" class="form-control" id="form-email" placeholder="nom@exemple.be">
+          </div>
+          <div class="form-group">
+            <label for="form-topic">Sujet de discussion</label>
+            <select class="form-control" id="form-topic">
+              <option>-</option>
+              <option>Les pizzas sont dégeulasses</option>
+              <option>Le personnel me répugne</option>
+              <option>Mouais</option>
+              <option>Que faites-vous des restes?</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="form-message">Votre message</label>
+            <textarea class="form-control" id="form-message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary">Envoyer</button>
+      </form>
 	  </div>
 
 <!-- Optional JavaScript -->
