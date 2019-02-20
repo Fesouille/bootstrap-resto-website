@@ -1,3 +1,8 @@
+/*Accueil - BEGINNING*/
+.title{
+	animation-duration: 5s;
+}
+/*Accueil - END*/
 /*Gallerie HTML - BEGINNING*/
 .pictures img{
 	width:100%;
