@@ -45,15 +45,15 @@
     </nav>
 	  <div class="container" id="restaurants">
 	    <h1 class="display-4">Nos restaurants</h1>
-      <p>Succès oblige, nous avons fini par craquer et avons ouvert plusieurs restaurants. Nous nous efforçons malgré tout de rester sobre en concentrant toute notre énergie sur la qualité de notre cuisine. Trois restaurants c'est déjà assez, n'esperez plus en voir d'autres apparaitre.</p>
+      <p>Succès oblige, nous avons fini par craquer et avons ouvert plusieurs restaurants. Nous nous efforçons malgré tout de rester sobre en concentrant toute notre énergie sur la qualité de notre cuisine. Trois restaurants c'est déjà assez, n'esperez plus en voir d'autres apparaître.</p>
 	    <hr class="my-4">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 mb-4">
-          Notre premier, notre fierté: Pizza et Falafel Gembloux<br>
+      <div class="row mb-4">
+        <div class="col restaurant">
+          <h5>Notre premier, notre fierté: Pizza et Falafel Gembloux</h5>
           <span class="restaurant-adresse">Rue Hambursin 36, 5030 Gembloux</span>
           <div class="row mt-3">
             <div class="col-5">
-              <table class="table table-sm">
+              <table class="table table-sm opening_hours">
                 <thead>
                   <tr>
                     <th scope="col" colspan="2">Heures d'ouverture: </th>
@@ -61,19 +61,25 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Lun, Mar, Jeu</td>
-                    <td>12h - 17h</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                   <tr>
-                    <td>Ven, Sam</td>
-                    <td>17h - 23h</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                   <tr>
-                    <td>Mer, Dim</d>
-                    <td>fermé</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                 </tbody>
               </table>
+              <div class="row mt-3">
+                <div class="col">
+                  <span class="current_date"></span><span class="current_time"></span><br>
+                  <span class="open_check"></span>
+                </div>
+              </div>
             </div>
             <div class="col-7 pl-0 plan">
               Plan d'accès:
@@ -83,12 +89,14 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 mb-4">
-        Notre deuxième (on l'aime aussi): Pizza et Falafel Ernage<br>
+      </div>
+      <div class="row mb-4">
+        <div class="col restaurant">
+        <h5>Notre deuxième (on l'aime aussi): Pizza et Falafel Ernage</h5>
         <span class="restaurant-adresse">Place de l'Europe, 5030 Ernage</span>
           <div class="row mt-3">
             <div class="col-5">
-              <table class="table table-sm">
+              <table class="table table-sm opening_hours">
                 <thead>
                   <tr>
                     <th scope="col" colspan="2">Heures d'ouverture: </th>
@@ -96,19 +104,25 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Lun, Mar, Jeu</td>
-                    <td>12h - 17h</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                   <tr>
-                    <td>Ven, Sam</td>
-                    <td>17h - 23h</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                   <tr>
-                    <td>Mer, Dim</td>
-                    <td>fermé</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                 </tbody>
               </table>
+              <div class="row mt-3">
+                <div class="col">
+                  <span class="current_date"></span><span class="current_time"></span><br>
+                  <span class="open_check"></span>
+                </div>
+              </div>
             </div>
             <div class="col-7 pl-0 plan">
               Plan d'accès:
@@ -119,13 +133,13 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 mb-4">
-          Notre dernier, le gâté: Pizza et Falafel Chastre<br>
+      <div class="row mb-4">
+        <div class="col restaurant">
+          <h5>Notre dernier, le gâté: Pizza et Falafel Chastre</h5>
           <span class="restaurant-adresse">Place de la Gare, 1450 Chastre</span>
           <div class="row mt-3">
             <div class="col-5">
-              <table class="table table-sm">
+              <table class="table table-sm opening_hours">
                 <thead>
                   <tr>
                     <th scope="col" colspan="2">Heures d'ouverture: </th>
@@ -133,19 +147,25 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Lun, Mar, Jeu</td>
-                    <td>12h - 17h</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                   <tr>
-                    <td>Ven, Sam</td>
-                    <td>17h - 23h</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                   <tr>
-                    <td>Mer, Dim</td>
-                    <td>fermé</td>
+                    <td class="days"></td>
+                    <td class="hours"></td>
                   </tr>
                 </tbody>
               </table>
+              <div class="row mt-3">
+                <div class="col">
+                  <span class="current_date"></span><span class="current_time"></span><br>
+                  <span class="open_check"></span>
+                </div>
+              </div>
             </div>
             <div class="col-7 pl-0 plan">
               Plan d'accès:
@@ -158,6 +178,7 @@
 	  </div>
 
 <!-- Optional JavaScript -->
+<script src="assets/js/script.js"></script>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -12,17 +12,15 @@
 	margin-bottom: 25px;
 }
 /*Gallerie HTML - END*/
+
+/*RESTAURANTS HTML - BEGINNING*/
 .restaurant-adresse{
-	font-size: 14px;
 	color: #B1B1B1;
 }
-/*RESTAURANTS HTML - BEGINNING*/
 .plan, #restaurants th {
 	font-size: 14px;
 }
-#restaurants td{
-	font-size: 13px;
-}
+
 .map-container{
 overflow:hidden;
 padding-bottom:56.25%;
