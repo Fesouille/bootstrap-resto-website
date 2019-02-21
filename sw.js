@@ -1,6 +1,6 @@
-self.addEventListener('install', function(event) {
+this.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('v3').then(function(cache) {
+    caches.open('v4').then(function(cache) {
       return cache.addAll([
         '/bootstrap-resto-website/',
         '/bootstrap-resto-website/offline.html',
@@ -16,7 +16,7 @@ self.addEventListener('install', function(event) {
   );
 });
 
-self.addEventListener('fetch', function(event) {
+this.addEventListener('fetch', function(event) {
   event.respondWith(caches.match(event.request).then(function(response) {
     // caches.match() always resolves
     // but in case of success response will have value
@@ -29,7 +29,7 @@ self.addEventListener('fetch', function(event) {
         // and serve second one
         let responseClone = response.clone();
         
-        caches.open('v3').then(function (cache) {
+        caches.open('v4').then(function (cache) {
           cache.put(event.request, responseClone);
         });
         return response;
