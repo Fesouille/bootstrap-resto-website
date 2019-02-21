@@ -1,6 +1,6 @@
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('v2').then(function(cache) {
+    caches.open('v3').then(function(cache) {
       return cache.addAll([
         '/bootstrap-resto-website/',
         '/bootstrap-resto-website/offline.html',
@@ -10,7 +10,7 @@ self.addEventListener('install', function(event) {
         '/bootstrap-resto-website/assets/bootstrap/css/bootstrap-grid.min.css',
         '/bootstrap-resto-website/assets/bootstrap/css/bootstrap-reboot.min.css',
         '/bootstrap-resto-website/assets/bootstrap/jss/bootstrap.bundle.min.js',
-        '/bootstrap-resto-website/assets/bootstrap/jss/bootstrap.min.js',
+        '/bootstrap-resto-website/assets/bootstrap/jss/bootstrap.min.js'
       ]);
     })
   );
@@ -29,7 +29,7 @@ self.addEventListener('fetch', function(event) {
         // and serve second one
         let responseClone = response.clone();
         
-        caches.open('v1').then(function (cache) {
+        caches.open('v3').then(function (cache) {
           cache.put(event.request, responseClone);
         });
         return response;
