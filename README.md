@@ -19,8 +19,8 @@ For this project, we have to realize a game based on the famous [Cookie Clicker]
 	* Javascript file: this file contains all functionalities of the game i.e. the button, their actions, ...
 
 
-* Check it ou! :
-	* [My first restaurant webpage]("https://fesouille.github.io/progressive-enhancement2/")
+* Check it out! :
+	* [My first restaurant webpage]("https://fesouille.github.io/bootstrap-resto-website/")
 
 * A few illustrating pictures:
 ![Screenshot 1 restaurant](assets/img/screenshot1.png)
