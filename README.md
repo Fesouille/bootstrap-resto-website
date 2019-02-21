@@ -1,22 +1,28 @@
-
-Progressive enhancement
+bootstrap-resto-website
 =================================
 
-Project of [Ismail Joseph](https://github.com/Fesouille).
+Project of [Ismail Joseph](https://github.com/Fesouille)
 ----------------------------------
 
 *Exercice realized from the 18 february 2019 to 21 february 2019, as a project for the formation [BeCode](https://www.becode.org/) to be a Web Developper*
 
 
 * Project:
-For this project, we have to realize a game based on the famous [Cookie Clicker](http://orteil.dashnet.org/cookieclicker/). As our first game, we don't have to make it 100% similar, but we have a list of given functionalities to create (such as 'the multiplier', 'the autoclicker', 'the bonus'). In order to achieve this project in group, we made use of [Trello](https://trello.com/) as our Kanban tool.
+For this project, I have to create the website for the restaurant of my choice (fictional). The main constraints are to use bootstrap, to make the website fully responsive for smartphones, tablets and desktop screens.
+I have to create at least 5 html pages, one for each section of the website.
+ 
+As a challenge, I tried to have a score of at least 80% for the PWA from the Google Lighthouse audit, but couldn't reach it. I managed to get only 64% unfortunately. But I don't give my last word!
 
 * Content:
-	* HTML file: contains the head, body, and links to javascript and css files.
+	* 5 HTML files: for for each section of the website i.e. Intro, menu, opening hours, pictures and contact form.
 
-	* CSS file: handles the style of the different functionalities and the body.
+	* CSS file: handles the style of the html files.
 
-	* Javascript file: this file contains all functionalities of the game i.e. the button, their actions, ...
+	* CDN: to access bootstrap library.
+
+	* Javascript file: this file contains manly two functions
+		* Function to ask the name of the user and include it in the intro text
+		* Function to generate the restaurants opening hours and the current date and time, and then checks if the restaurants are open given the date and time.
 
 
 * Check it out! :
@@ -25,6 +31,7 @@ For this project, we have to realize a game based on the famous [Cookie Clicker]
 * A few illustrating pictures:
 ![Screenshot 1 restaurant](assets/img/screenshot1.png)
 ![Screenshot 2 restaurant](assets/img/screenshot2.png)
+![Screenshot 3 restaurant](assets/img/screenshot3.png)
 
 
 * Progress: 
