@@ -20,13 +20,13 @@ As a challenge, I tried to have a score of at least 80% for the PWA from the Goo
 
 	* CDN: to access bootstrap library.
 
-	* Javascript file: this file contains manly two functions
+	* Javascript file: this file contains mainly two functions
 		* Function to ask the name of the user and include it in the intro text
 		* Function to generate the restaurants opening hours and the current date and time, and then checks if the restaurants are open given the date and time.
 
 
-* Check it out! :
-	* [My first restaurant webpage]("https://fesouille.github.io/bootstrap-resto-website/")
+* Check it out ! :
+	* [My first restaurant webpage](https://fesouille.github.io/bootstrap-resto-website/)
 
 * A few illustrating pictures:
 ![Screenshot 1 restaurant](assets/img/screenshot1.png)
