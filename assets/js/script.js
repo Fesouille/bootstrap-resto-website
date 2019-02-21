@@ -1,6 +1,6 @@
 // register service worker - BEGINNING
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/bootstrap-resto-website/sw.js', { scope: '/bootstrap-resto-website/' }).then(function(reg) {
+  navigator.serviceWorker.register('/bootstrap-resto-website/assets/js/sw.js', { scope: '/bootstrap-resto-website/assets/js/' }).then(function(reg) {
 
     if(reg.installing) {
       console.log('Service worker installing');

@@ -4,7 +4,13 @@ self.addEventListener('install', function(event) {
       return cache.addAll([
         '/bootstrap-resto-website/',
         '/bootstrap-resto-website/offline.html',
-        '/bootstrap-resto-website/assets/css/style.css'
+        '/bootstrap-resto-website/assets/css/style.css',
+        '/bootstrap-resto-website/assets/bootstrap/css/bootstrap.css',
+        '/bootstrap-resto-website/assets/bootstrap/css/bootstrap.min.css',
+        '/bootstrap-resto-website/assets/bootstrap/css/bootstrap-grid.min.css',
+        '/bootstrap-resto-website/assets/bootstrap/css/bootstrap-reboot.min.css',
+        '/bootstrap-resto-website/assets/bootstrap/jss/bootstrap.bundle.min.js',
+        '/bootstrap-resto-website/assets/bootstrap/jss/bootstrap.min.js',
       ]);
     })
   );
