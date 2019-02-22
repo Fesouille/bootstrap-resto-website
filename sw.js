@@ -4,13 +4,7 @@ this.addEventListener('install', function(event) {
       return cache.addAll([
         '/bootstrap-resto-website/',
         '/bootstrap-resto-website/offline/acceuil_offline.html',
-        '/bootstrap-resto-website/offline/carte_offline.html',
-        '/bootstrap-resto-website/offline/gallerie_offline.html',
-        '/bootstrap-resto-website/offline/restaurants_offline.html',
-        '/bootstrap-resto-website/offline/contact_offline.html',
-        '/bootstrap-resto-website/offline/offline_style.css',
-        '/bootstrap-resto-website/assets/img/pizza-falafel_logo.png',
-        '/bootstrap-resto-website/assets/img/pizza-falafel_logo.ico',
+        '/bootstrap-resto-website/offline/offline_style.css'
         
       ]);
     })
