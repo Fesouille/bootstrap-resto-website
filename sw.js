@@ -7,6 +7,7 @@ this.addEventListener('install', function(event) {
         '/bootstrap-resto-website/offline/offline_style.css',
         '/bootstrap-resto-website/index.html',
         '/bootstrap-resto-website/carte.html',
+        '/bootstrap-resto-website/gallerie.html',
         '/bootstrap-resto-website/restaurants.html',
         '/bootstrap-resto-website/contact.html'
         
