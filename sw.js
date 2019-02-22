@@ -9,7 +9,8 @@ this.addEventListener('install', function(event) {
         '/bootstrap-resto-website/carte.html',
         '/bootstrap-resto-website/gallerie.html',
         '/bootstrap-resto-website/restaurants.html',
-        '/bootstrap-resto-website/contact.html'
+        '/bootstrap-resto-website/contact.html', 
+        '/bootstrap-resto-website/assets/img'
         
       ]);
     })
