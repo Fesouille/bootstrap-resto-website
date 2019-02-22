@@ -9,8 +9,7 @@ this.addEventListener('install', function(event) {
         '/bootstrap-resto-website/carte.html',
         '/bootstrap-resto-website/gallerie.html',
         '/bootstrap-resto-website/restaurants.html',
-        '/bootstrap-resto-website/contact.html', 
-        '/bootstrap-resto-website/assets/img/'
+        '/bootstrap-resto-website/contact.html'
         
       ]);
     })
@@ -35,7 +34,7 @@ this.addEventListener('fetch', function(event) {
         });
         return response;
       }).catch(function () {
-        return caches.match('/bootstrap-resto-website/assets/img/pizza-falafel_logo.png');
+        return caches.match('/bootstrap-resto-website/assets/img/failed_download.png');
       });
     }
   }));
