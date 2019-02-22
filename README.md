@@ -11,7 +11,7 @@ Project of [Ismail Joseph](https://github.com/Fesouille)
 For this project, I have to create the website for the restaurant of my choice (fictional). The main constraints are to use bootstrap, to make the website fully responsive for smartphones, tablets and desktop screens.
 I have to create at least 5 html pages, one for each section of the website.
  
-As a challenge, I tried to have a score of at least 80% for the PWA from the Google Lighthouse audit, but couldn't reach it. I managed to get only 64% unfortunately. But I don't give my last word!
+As a challenge, I tried to have a score of at least 80% for the PWA from the Google Lighthouse audit, but couldn't reach it. I managed to get only 64% unfortunately. But I don't give my last word! [see progress section]
 
 * Content:
 	* 5 HTML files: for for each section of the website i.e. Intro, menu, opening hours, pictures and contact form.
@@ -37,3 +37,4 @@ As a challenge, I tried to have a score of at least 80% for the PWA from the Goo
 * Progress: 
 	* 18 february 2019: project beginning.
 	* 21 february 2019: project end.
+	* 22 february 2019: PWA is set up and functional. Lighthouse score up to 96%.
