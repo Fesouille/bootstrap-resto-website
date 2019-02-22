@@ -28,7 +28,7 @@ this.addEventListener('fetch', function(event) {
         });
         return response;
       }).catch(function () {
-        return caches.match('/bootstrap-resto-website/assets/img/falafel.jpg');
+        return caches.match('/bootstrap-resto-website/assets/img/pizza-falafel_logo.png');
       });
     }
   }));
