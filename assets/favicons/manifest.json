@@ -1,5 +1,9 @@
 {
  "name": "App",
+ "short_name": "App",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color":"#ffffff",
  "icons": [
   {
    "src": "\/bootstrap-resto-website\/assets\/favicons\/android-icon-36x36.png",
