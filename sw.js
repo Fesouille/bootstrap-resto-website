@@ -4,7 +4,6 @@ this.addEventListener('install', function(event) {
       return cache.addAll([
         '/bootstrap-resto-website/',
         '/bootstrap-resto-website/offline/acceuil_offline.html',
-        '/bootstrap-resto-website/offline/offline_style.css',
         '/bootstrap-resto-website/index.html',
         '/bootstrap-resto-website/carte.html',
         '/bootstrap-resto-website/gallerie.html',
