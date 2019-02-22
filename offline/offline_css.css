@@ -1,0 +1,10 @@
+nav{
+	display: flex;
+}
+nav img{
+	margin-right: 15px;
+}
+nav ul{
+  display:flex;
+  margin-right:15%;
+}

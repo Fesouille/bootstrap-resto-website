@@ -1,9 +1,12 @@
 this.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('v4').then(function(cache) {
+    caches.open('v1').then(function(cache) {
       return cache.addAll([
         '/bootstrap-resto-website/',
-        '/bootstrap-resto-website/offline.html'
+        '/bootstrap-resto-website/offline/offline.html',
+        '/bootstrap-resto-website/offline/normalize.css',
+        '/bootstrap-resto-website/offline/offline_css.css',
+        '/bootstrap-resto-website/assets/img/pizza-falafel_logo.ico'
       ]);
     })
   );
@@ -22,7 +25,7 @@ this.addEventListener('fetch', function(event) {
         // and serve second one
         let responseClone = response.clone();
         
-        caches.open('v4').then(function (cache) {
+        caches.open('v1').then(function (cache) {
           cache.put(event.request, responseClone);
         });
         return response;
