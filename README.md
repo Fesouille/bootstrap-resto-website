@@ -4,7 +4,7 @@ bootstrap-resto-website
 Project of [Ismail Joseph](https://github.com/Fesouille)
 ----------------------------------
 
-*Exercice realized from the 18 february 2019 to 21 february 2019, as a project for the formation [BeCode](https://www.becode.org/) to be a Web Developper*
+*Exercice realized as a project for the formation [BeCode](https://www.becode.org/) to be a Web Developper*
 
 
 * Project:
